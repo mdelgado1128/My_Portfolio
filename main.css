@@ -19,6 +19,12 @@ body {
     float: left !important ;s
 }
 
+.portpic img {
+    max-height: 210px !important;
+    margin: 20px;
+
+}
+
 .display-4 {
     color: cadetblue;
   
@@ -38,6 +44,10 @@ body {
 
 ::placeholder {
     text-align: inherit;
+}
+
+.topfooter {
+    background-color: cadetblue;
 }
 
 footer {
