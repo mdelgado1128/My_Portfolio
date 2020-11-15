@@ -1,6 +1,7 @@
 
 body {
     background-color:silver;
+    
 }
 .navbar-brand {
     background-color: cadetblue;
@@ -13,24 +14,34 @@ body {
     max-width: 900px;
     margin: 50px;
 }
+.jumbotron img {
+    max-height: 200px;
+    float: left !important ;s
+}
+
+.display-4 {
+    color: cadetblue;
+  
+}
 
 .form-control2 {
     height: 100px;
     width: 100%;
 }
+
+.second {
+    padding: 20px;
+}
+
+
+
+
 ::placeholder {
     text-align: inherit;
 }
 
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+footer {
     text-align: center;
-    background-color: grey;
-
+    background-color: gray;
+    padding: 3px;
 }
-
-.footer h2 {
-    font-size: 20px;
