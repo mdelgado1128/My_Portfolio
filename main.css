@@ -1,14 +1,14 @@
 
-body {
-    background-color:silver;
-    
-}
-.navbar-brand {
-    background-color: cadetblue;
+
+.navbar-light .navbar-brand{
     color: white !important;
-
-
 }
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
+
+
  
 .jumbotron {
     max-width: 900px;
@@ -16,7 +16,7 @@ body {
 }
 .jumbotron img {
     max-height: 201px;
-    float: left !important ;s
+    float: left !important ;
 }
 
 .portpic img {
@@ -26,7 +26,7 @@ body {
 }
 
 .display-4 {
-    color: cadetblue;
+    color: black;
   
 }
 
@@ -46,12 +46,18 @@ body {
     text-align: inherit;
 }
 
-.topfooter {
-    background-color: cadetblue;
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
 }
 
-footer {
-    text-align: center;
-    background-color: gray;
-    padding: 3px;
+.text-muted {
+
+    color: white !important;
 }
+
