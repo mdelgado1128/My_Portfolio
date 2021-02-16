@@ -1,4 +1,8 @@
-
+ * {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    /* background-image: url('./assests/Images/markus-spiske-iar-afB0QQw-unsplash.jpg'); */
+ }
 
 .navbar-light .navbar-brand{
     color: white !important;
@@ -13,6 +17,7 @@
 .jumbotron {
     max-width: 900px;
     margin: 50px;
+    
 }
 .jumbotron img {
     max-height: 201px;
