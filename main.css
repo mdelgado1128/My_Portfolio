@@ -1,32 +1,43 @@
- * {
+ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    /* background-image: url('./assests/Images/markus-spiske-iar-afB0QQw-unsplash.jpg'); */
+    background-image: url('./assests/Images/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+ .container {
+     background-color:white;
  }
 
 .navbar-light .navbar-brand{
-    color: white !important;
+    color: gray;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:grey
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color: white !important;
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+color:grey
 }
-
-
- 
 .jumbotron {
     max-width: 900px;
     margin: 50px;
+    background-color: white;
     
 }
 .jumbotron img {
-    max-height: 201px;
+    max-height: 250px;
     float: left !important ;
+    border-radius:20px;
+  
 }
 
 .portpic img {
     max-height: 350px !important;
     margin: 20px;
+
 
 }
 
@@ -63,5 +74,10 @@
 .text-muted {
 
     color: white !important;
+}
+
+.mainPhoto {
+    border-radius: 20px;
+    
 }
 
